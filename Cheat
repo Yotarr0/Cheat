@@ -5,5 +5,5 @@ local Window = Library.CreateLib("auto farm by capzi ", "Ocean")
     local MainSection = Main:NewSection("Main")
 
 MainSection:NewButton("money farm", "chest farm", function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptpastebin/raw/main/ChestFarm"))()
+        loadstring(game:HttpGetAsync('https://pastebin.com/raw/BchKDg9R'))()
 end)
